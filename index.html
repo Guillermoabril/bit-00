@@ -1,17 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Pagina Guillermo</title>
-</head>
-<body>
-      <div>Hola, a todos!!</div>
-      <figure>
-            <img src="/bit-00/img/photo.jpg" alt="Imagen en proceso de carga">
-            <figcaption>Guillermo Abril</figcaption>
-      </figure>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Guillermo</title>
 
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:ital,opsz@1,6..12&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!----------- Inicio header ------------->
+
+    <header>
+      <nav>
+        <span class="material-symbols-outlined"> apps </span>
+        <a href="#">Personal</a>
+        <a href="#">Formacion</a>
+        <a href="#">Gustos</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </header>
+
+    <!----------- Inicio main ------------->
+
+    <main>
+      <h1>Pagina principal Guillermo Abril</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        blanditiis debitis, quidem doloremque quis libero accusantium delectus
+        iure eum, ut ipsum molestias repellendus nesciunt neque rem magnam
+        nihil? Quam, sed!
+      </p>
+      <section class="container">
+        
+        <ol><h2>Hobbies</h2>
+          <li>Estar con mi familia</li>
+          <li>Jugar con mi hija</li>
+          <li>Pasear con mi Familia</li>
+          <li>Disfrutar la vida</li>
+          <li>Jugar Futbol</li>
+        </ol>
+
+         <ul><h2>Comidas favoritas</h2>
+          <li>Carne de res</li>
+          <li>Hamburguesa</li>
+          <li>Pizza de carnes</li>
+          <li>Pan con gaseosa</li>
+        </ul>
+      </section>
+      <hr />
+    </main>
+
+    <figure>
+      <img
+        src="/bit-00/img/photo.jpg"
+        alt="Imagen en proceso de carga"
+        id="img-principal"
+      />
+      <figcaption><em>Guillermo Abril y Majo Abril</em></figcaption>
+    </figure>
+
+    <!----------- Inicio footer ------------->
+
+    <hr />
+    <footer>
+      <section>
+        <h2>Contactanos</h2>
+        <form id="formulario">
+          <label>Nombre: <input type="text" placeholder="Nombre" /></label>
+          <br />
+          <label>Telefono: <input type="number" placeholder="Celular" /></label>
+          <br />
+          <label
+            >Email: <input type="email" placeholder="Correo Electronico"
+          /></label>
+          <br />
+          <label>Enviar: <input type="submit" /></label>
+        </form>
+      </section>
+    </footer>
+  </body>
 </html>
-

@@ -1,0 +1,126 @@
+:root {
+      --c-primary: #8e7dbe;
+      --c-secondary: #778da9;
+      --c-danger: #e63946;
+      --c-succes: #57cc99;
+      --c-navy: #023e8a;
+      --c-colorbg: #edf2fb;
+      --c-colorbglistas: #83c5be;
+      --ff-title: 'Montserrat', sans-serif;
+      --ff-base: 'Nunito Sans', sans-serif;      
+
+}
+
+*,
+*::before,
+*::after {
+      box-sizing: border-box;
+      margin: 0;
+}
+
+body {
+      background-color: var(--c-colorbg);
+      padding: 5px;
+}
+
+/* ---------------- CSS header -------------*/
+
+header {
+      margin: 5px;
+      
+}
+
+header nav {
+      gap: 10px;
+      
+}
+
+a {
+      border-radius: 5%;
+      border-radius: 15px;
+      background-color: #edf2fb;
+      color: black;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: none;
+}
+
+a:hover {
+      color: white;
+      font-size: 20px;
+      background-color: #a2d2ff;
+}
+
+/* ---------------- CSS main -------------*/
+
+main {
+      margin: 5px;
+}
+
+h1 { 
+      color: var(--c-primary);
+      font-family: var(--ff-title);
+      text-align: center;
+      padding-bottom: 5px;
+}
+
+p {
+      color: var(--c-succes);
+      font-family: var(--ff-base);
+      margin-bottom: 10px;
+
+}
+
+.container {
+      box-sizing: border-box;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 20px;
+
+}
+
+ul {
+      
+      background-color: var(--c-colorbglistas);
+      border-radius: 15rem;
+      margin: 5px;
+}
+
+ol {
+      
+      background-color: var(--c-colorbglistas);
+      border-radius: 15rem;
+      margin: 5px;
+}
+
+
+#img-principal {
+      width: 500px;
+}
+
+/* ---------------- CSS footer -------------*/
+
+footer {
+      margin-top: 20px;
+}
+
+#formulario {
+      border: solid 1px gray;
+      width: 500px;
+      font-weight: bold;
+      color: var(--c-navy);
+      font-size: 20px;
+
+}
+
+form {
+      padding: 10px;
+}
+
+
+
+form label input {
+      padding: 5px;
+      margin: 5px;
+}
